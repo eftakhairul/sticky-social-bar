@@ -45,47 +45,47 @@ add_action('wp_head', 'sticky_social_bar_css');
 //CSS
 function sticky_social_bar_css() {
 ?>
-  	<style type="text/css">
-        .sticky-container {
-            padding: 0px;
-            margin: 0px;
-            position: fixed;
-            right: -119px;
-            top:130px;
-            width: 200px;
-        }
+<style type="text/css">
+    .sticky-container {
+        padding: 0px;
+        margin: 0px;
+        position: fixed;
+        right: -119px;
+        top:130px;
+        width: 200px;
+    }
 
-        .sticky li {
-            list-style-type: none;
-            background-color: #333;
-            color: #efefef;
-            height: 43px;
-            padding: 0px;
-            margin: 0px 0px 1px 0px;
-            -webkit-transition:all 0.25s ease-in-out;
-            -moz-transition:all 0.25s ease-in-out;
-            -o-transition:all 0.25s ease-in-out;
-            transition:all 0.25s ease-in-out;
-            cursor: pointer;
-        }
+    .sticky li {
+        list-style-type: none;
+        background-color: #333;
+        color: #efefef;
+        height: 43px;
+        padding: 0px;
+        margin: 0px 0px 1px 0px;
+        -webkit-transition:all 0.25s ease-in-out;
+        -moz-transition:all 0.25s ease-in-out;
+        -o-transition:all 0.25s ease-in-out;
+        transition:all 0.25s ease-in-out;
+        cursor: pointer;
+    }
 
-        .sticky li:hover {
-            margin-left: -115px;
-        }
+    .sticky li:hover {
+        margin-left: -115px;
+    }
 
-        .sticky li a img {
-            float: left;
-            margin: 5px 5px;
-            margin-right: 10px;
-        }
+    .sticky li a img {
+        float: left;
+        margin: 5px 5px;
+        margin-right: 10px;
+    }
 
-        .sticky li a p {
-            padding: 0px;
-            margin: 0px;
-            text-transform: uppercase;
-            line-height: 43px;
-        }
-    </style>
+    .sticky li a p {
+        padding: 0px;
+        margin: 0px;
+        text-transform: uppercase;
+        line-height: 43px;
+    }
+</style>
 <?php
 }
 
@@ -112,6 +112,5 @@ function sticky_social_bar_html() {
         <?php endforeach ?>
     </ul>
 </div>
-?>
 <?php
 }
