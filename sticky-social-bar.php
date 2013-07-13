@@ -28,7 +28,7 @@ if ( is_admin() ) {
  */
 function stickysocialbar_admin_create_menu()
 {
-    add_menu_page('Sticky Social Bar', 'Sticky Social Bar Setting', 'administrator', 'sticky-social-bar-setting', 'sticky_social_bar_setting_form',plugin_dir_url( __FILE__ .'images/icon_pref_settings.gif',1));
+    add_menu_page('Sticky Social Bar', 'Sticky Social Bar', 'administrator', 'sticky-social-bar-setting', 'sticky_social_bar_setting_form',plugin_dir_url( __FILE__ .'images/icon_pref_settings.gif',1));
 }
 
 /**
@@ -51,7 +51,7 @@ function sticky_social_bar_css() {
 		padding: 0px;
 		margin: 0px;
 		position: fixed;
-		right: -119px;
+		right: -155px;
 		top:130px;
 		width: 200px;
 
@@ -87,19 +87,21 @@ function sticky_social_bar_css() {
                 -webkit-filter: grayscale(0%);
 	}
 
-	.sticky li img{
+	.sticky li a img{
 		float: left;
 		margin: 5px 5px;
 		margin-right: 10px;
 
 	}
 
-	.sticky li p{
+	.sticky li a p{
 		padding: 0px;
 		margin: 0px;
 		text-transform: uppercase;
 		line-height: 43px;
-
+        text-decoration: none !important;
+        color: #ECF0F1;
+        font-family: "Lato";
     }
 </style>
 <?php
@@ -113,14 +115,16 @@ function sticky_social_bar_html() {
     $stickySocialBarTable  = $wpdb->prefix . "sticky_social_bar";
     $result = $wpdb->get_results("SELECT * FROM {$stickySocialBarTable} WHERE id = 1");
     $links   = get_object_vars($result[0]);
+    unset($links['id']);
+    unset($links['update_date']);
 ?>
 <div class="sticky-container">
     <ul class="sticky">
         <?php foreach($links as $name => $link) : ?>
             <?php if(!empty($link)): ?>
             <li>
-                <a href="<?php echo $link ?>">
-                    <img width="32" height="32" alt="" src="images/fb1.png" />
+                <a target="_blank" href="<?php echo $link ?>">
+                    <img width="32" height="32" alt="" src="<?php echo site_url(); ?>/wp-content/plugins/Sticky-Social-Bar/images/<?php echo $name ?>.png" />
                     <p><?php echo ucfirst($name) ?></p>
                 </a>
             </li>
