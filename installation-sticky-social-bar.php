@@ -24,11 +24,10 @@ function stickysocialbar_install()
                       `linkedin` varchar(500) DEFAULT NULL,
                       `rss` varchar(500) DEFAULT NULL,
                       `tumblr` varchar(500) DEFAULT NULL,
-                      `wordpress` varchar(500) DEFAULT NULL,
                       `update_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
                       PRIMARY KEY (`id`)
                     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;";
-    $insertSql      = "INSERT INTO `{$stickySocialBarTable}` (`id`, `facebook`, `twitter`, `vemo`, `pinterest`, `linkedin`, `rss`, `tumblr`, `wordpress`, `update_date`) VALUES ('1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, CURRENT_TIMESTAMP);";
+    $insertSql      = "INSERT INTO `{$stickySocialBarTable}` (`id`, `facebook`, `twitter`, `vemo`, `pinterest`, `linkedin`, `rss`, `tumblr`, `update_date`) VALUES ('1', '#', '#', '#', '#', '#', '#', '#', CURRENT_TIMESTAMP);";
 
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 
