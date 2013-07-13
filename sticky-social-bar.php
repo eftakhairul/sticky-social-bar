@@ -28,7 +28,7 @@ if ( is_admin() ) {
  */
 function stickysocialbar_admin_create_menu()
 {
-    add_menu_page('Sticky Social Bar', 'Sticky Social Bar', 'administrator', 'sticky-social-bar-setting', 'sticky_social_bar_setting_form',plugin_dir_url( __FILE__ .'images/icon_pref_settings.gif',1));
+    add_menu_page('Sticky Social Bar', 'Sticky Social Bar', 'administrator', 'sticky-social-bar-setting', 'sticky_social_bar_setting_form',plugins_url('/Sticky-Social-Bar/images/icon_pref_settings.gif',1));
 }
 
 /**
