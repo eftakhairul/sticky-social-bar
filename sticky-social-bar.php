@@ -46,7 +46,7 @@ add_action('wp_head', 'sticky_social_bar_css');
 function sticky_social_bar_css() {
 ?>
 <style type="text/css">
-    .sticky-container{
+    .sticky-container {
 		/*background-color: #333;*/
 		padding: 0px;
 		margin: 0px;
@@ -57,7 +57,7 @@ function sticky_social_bar_css() {
 
 	}
 
-	.sticky li{
+	.sticky li {
 		list-style-type: none;
 		background-color: #333;
 		color: #efefef;
@@ -75,7 +75,7 @@ function sticky_social_bar_css() {
 
 	}
 
-	.sticky li:hover{
+	.sticky li:hover {
 		margin-left: -115px;
 		/*-webkit-transform: translateX(-115px);
 		-moz-transform: translateX(-115px);
@@ -87,14 +87,14 @@ function sticky_social_bar_css() {
                 -webkit-filter: grayscale(0%);
 	}
 
-	.sticky li a img{
+	.sticky li a img {
 		float: left;
 		margin: 5px 5px;
 		margin-right: 10px;
 
 	}
 
-	.sticky li a p{
+	.sticky li a p {
 		padding: 0px;
 		margin: 0px;
 		text-transform: uppercase;
