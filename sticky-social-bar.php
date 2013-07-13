@@ -46,44 +46,60 @@ add_action('wp_head', 'sticky_social_bar_css');
 function sticky_social_bar_css() {
 ?>
 <style type="text/css">
-    .sticky-container {
-        padding: 0px;
-        margin: 0px;
-        position: fixed;
-        right: -119px;
-        top:130px;
-        width: 200px;
-    }
+    .sticky-container{
+		/*background-color: #333;*/
+		padding: 0px;
+		margin: 0px;
+		position: fixed;
+		right: -119px;
+		top:130px;
+		width: 200px;
 
-    .sticky li {
-        list-style-type: none;
-        background-color: #333;
-        color: #efefef;
-        height: 43px;
-        padding: 0px;
-        margin: 0px 0px 1px 0px;
-        -webkit-transition:all 0.25s ease-in-out;
-        -moz-transition:all 0.25s ease-in-out;
-        -o-transition:all 0.25s ease-in-out;
-        transition:all 0.25s ease-in-out;
-        cursor: pointer;
-    }
+	}
 
-    .sticky li:hover {
-        margin-left: -115px;
-    }
+	.sticky li{
+		list-style-type: none;
+		background-color: #333;
+		color: #efefef;
+		height: 43px;
+		padding: 0px;
+		margin: 0px 0px 1px 0px;
+		-webkit-transition:all 0.25s ease-in-out;
+		-moz-transition:all 0.25s ease-in-out;
+		-o-transition:all 0.25s ease-in-out;
+		transition:all 0.25s ease-in-out;
+		cursor: pointer;
+		filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+                filter: gray;
+                -webkit-filter: grayscale(100%);
 
-    .sticky li a img {
-        float: left;
-        margin: 5px 5px;
-        margin-right: 10px;
-    }
+	}
 
-    .sticky li a p {
-        padding: 0px;
-        margin: 0px;
-        text-transform: uppercase;
-        line-height: 43px;
+	.sticky li:hover{
+		margin-left: -115px;
+		/*-webkit-transform: translateX(-115px);
+		-moz-transform: translateX(-115px);
+		-o-transform: translateX(-115px);
+		-ms-transform: translateX(-115px);
+		transform:translateX(-115px);*/
+		/*background-color: #8e44ad;*/
+		filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+                -webkit-filter: grayscale(0%);
+	}
+
+	.sticky li img{
+		float: left;
+		margin: 5px 5px;
+		margin-right: 10px;
+
+	}
+
+	.sticky li p{
+		padding: 0px;
+		margin: 0px;
+		text-transform: uppercase;
+		line-height: 43px;
+
     }
 </style>
 <?php
@@ -104,7 +120,7 @@ function sticky_social_bar_html() {
             <?php if(!empty($link)): ?>
             <li>
                 <a href="<?php echo $link ?>">
-                    <img width="32" height="32" alt="<?php echo ucfirst($name) ?>" src="images/fb1.png" />
+                    <img width="32" height="32" alt="" src="images/fb1.png" />
                     <p><?php echo ucfirst($name) ?></p>
                 </a>
             </li>
