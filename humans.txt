@@ -1,0 +1,19 @@
+/* TEAM */
+Author: Eftakhairul Islam
+Contact: eftakhairul [at] gmail [dot] com
+Twitter: eftakhairul
+From: Dhaka, Bangladesh.
+Site: http://eftakhairul.com/
+
+/* THANKS */
+Name: Hasin Hyder
+
+
+/* SITE */
+Last update: 2013/0/13
+Language: English
+
+Doctype: HTML5
+Standards: HTML, CSS
+
+Software: Sticky social bar is a simple wordpress plugin of social media icons, glued to the right side of the browser window.
