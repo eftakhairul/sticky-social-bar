@@ -28,7 +28,7 @@ if ( is_admin() ) {
  */
 function stickysocialbar_admin_create_menu()
 {
-    add_menu_page('Sticky Social Bar', 'Sticky Social Bar', 'administrator', 'sticky-social-bar-setting', 'sticky_social_bar_setting_form',plugins_url('/Sticky-Social-Bar/images/icon_pref_settings.gif',1));
+    add_menu_page('Sticky Social Bar', 'Sticky Social Bar', 'administrator', 'sticky-social-bar-setting', 'sticky_social_bar_setting_form',plugins_url('/sticky-social-bar/images/icon_pref_settings.gif',1));
 }
 
 /**
@@ -51,7 +51,7 @@ function sticky_social_bar_css() {
 		padding: 0px;
 		margin: 0px;
 		position: fixed;
-		right: -155px;
+		right: -129px;
 		top:130px;
 		width: 200px;
 
@@ -124,7 +124,7 @@ function sticky_social_bar_html() {
             <?php if(!empty($link)): ?>
             <li>
                 <a target="_blank" href="<?php echo $link ?>">
-                    <img width="32" height="32" alt="" src="<?php echo site_url(); ?>/wp-content/plugins/Sticky-Social-Bar/images/<?php echo $name ?>.png" />
+                    <img width="32" height="32" alt="" src="<?php echo plugins_url('/sticky-social-bar/images/'. $name .'.png', 1) ?>" />
                     <p><?php echo ucfirst($name) ?></p>
                 </a>
             </li>

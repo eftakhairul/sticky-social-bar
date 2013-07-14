@@ -10,4 +10,4 @@ Plugin Link: http://wordpress.org/plugins/sticky-social-bar/
 ### Special Thanks ###
 [Hasin Hayder](https://github.com/hasinhayder)
 
-Basically, I made this wordpress plugin inspired by Hasin bhaiya's  [StickySocialBar](https://github.com/hasinhayder/StickySocialBar) pet project.
+Basically, I made this wordpress plugin inspired by Hasin bhaiya's  [Sticky Social Bar](https://github.com/hasinhayder/StickySocialBar) pet project.
