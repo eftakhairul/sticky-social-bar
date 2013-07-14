@@ -18,7 +18,7 @@ Each element in the sticky social bar is animated using css3 transitions and tra
 
 = Features =
   * Easy and simple.
-  * Not any high level animation, only css3
+  * Not required any high level animation, only css3
   * Easy setting and configuration
 
 = Author =
@@ -31,9 +31,24 @@ This may have bugs and lack of many features. If you want to contribute on this 
 
 Just flow the following easy steps..
 
-1. Select any link of image (png or any kind of image) from any website or upload a image to media and take the link from media
-2. Click on 'set Fav Icon url' button at admin menu.
-3. put that as Fav Icon Url. Click the "Save Changes" button for updating the setting.
+1. Click the 'Sticky Social Bar' button at admin menu
+2. Put your social links and press Save Changes Button
+
+== Frequently Asked Questions ==
+
+= Q. What type of link will I have to put? =
+A. Any social link you can put.
+
+= Q. Show me an example? =
+
+A. If your facebook link is like: fb.com/your_name, then put it next to Facebook and press 'Save Changes' button
+
+
+== Screenshots ==
+
+1. Click the 'Sticky Social Bar' button at admin menu.
+2. Put your social links and press Save Changes Button
+3. Real UI
 
 == Changelog ==
 
