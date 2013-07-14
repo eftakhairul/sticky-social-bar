@@ -6,7 +6,7 @@ From: Dhaka, Bangladesh.
 Site: http://eftakhairul.com/
 
 /* THANKS */
-Name: Hasin Hyder
+Name: Hasin Hayder
 
 
 /* SITE */
