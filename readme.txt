@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: eftakhairul
 Donate link:
-Tags: social, sticky, bar, side bar, Sticky Social Bar
+Tags: social, sticky, bar, side bar, Sticky Social Bar, sticky-social-bar
 Requires at least: 3.0.1
 Tested up to: 3.4
 Stable tag: trunk
@@ -18,7 +18,7 @@ Each element in the sticky social bar is animated using css3 transitions and tra
 
 = Features =
   * Easy and simple.
-  * Not required any high level animation, only css3
+  * Not required any high level animation, only by css3
   * Easy setting and configuration
 
 = Author =
@@ -39,15 +39,15 @@ Just flow the following easy steps..
 = Q. What type of link will I have to put? =
 A. Any social link you can put.
 
-= Q. Show me an example? =
+= Q. Would please show me an example? =
 
 A. If your facebook link is like: fb.com/your_name, then put it next to Facebook and press 'Save Changes' button
 
 
 == Screenshots ==
 
-1. Click the 'Sticky Social Bar' button at admin menu.
-2. Put your social links and press Save Changes Button
+1. Sticky Social Bar button at admin menu.
+2. Setting Page with save button
 3. Real UI
 
 == Changelog ==
