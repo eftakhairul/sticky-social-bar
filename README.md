@@ -11,3 +11,6 @@ Plugin Link: http://wordpress.org/plugins/sticky-social-bar/
 [Hasin Hayder](https://github.com/hasinhayder)
 
 Basically, I made this wordpress plugin inspired by Hasin bhaiya's  [Sticky Social Bar](https://github.com/hasinhayder/StickySocialBar) pet project.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/eftakhairul/Sticky-Social-Bar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
