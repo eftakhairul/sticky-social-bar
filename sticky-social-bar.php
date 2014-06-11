@@ -54,7 +54,7 @@ function sticky_social_bar_css() {
 		right: -129px;
 		top:130px;
 		width: 200px;
-
+        z-index: 10000;
 	}
 
 	.sticky li {
