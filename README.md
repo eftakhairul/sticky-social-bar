@@ -21,7 +21,7 @@ Basically, I made this wordpress plugin inspired by Hasin bhaiya's  [Sticky Soci
 * [Mahfuzul Hasan]
 * [Sirajus Salayhin]
 
-####  Doname to this project
+####  Donate to this project
 [Donate] - Donate through paypal
 
 
