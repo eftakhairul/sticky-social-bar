@@ -9,15 +9,15 @@ Download
 http://wordpress.org/plugins/sticky-social-bar/
 
 
-#### Author 
+#### Author ####
 [Md. Eftakhairul Islam]     Email: eftakhairul [at] gmail [dot] com
 
-#### Special Thanks 
+#### Special Thanks ####
 [Hasin Hayder]
 
 Basically, I made this wordpress plugin inspired by Hasin bhaiya's  [Sticky Social Bar] pet project.
 
-#### Contributors 
+#### Contributors ####
 * [Mahfuzul Hasan]
 * [Sirajus Salayhin]
 
