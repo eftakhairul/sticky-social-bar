@@ -55,6 +55,9 @@ A. If your facebook link is like: fb.com/your_name, then put it next to Facebook
 = 1.0 =
 Initial version released
 
+= 2.0 =
+CSS bugs are fixed
+
 == Upgrade Notice ==
 Nothing here
 
