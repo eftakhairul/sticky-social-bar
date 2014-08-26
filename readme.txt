@@ -27,6 +27,8 @@ Brought to you by [Md. Eftakhairul Islam](http://eftakhairul.com)
 = Contribute =
 This may have bugs and lack of many features. If you want to contribute on this project, you are more than welcome. Please fork the repository from [Github](https://github.com/eftakhairul/Sticky-Social-Bar).
 
+Please [donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=eftakhairul%40gmail%2ecom&lc=CA&item_name=Eftakhairul%20world&item_number=web_product&currency_code=CAD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) me to enhance this project.
+
 == Installation ==
 
 Just flow the following easy steps..
