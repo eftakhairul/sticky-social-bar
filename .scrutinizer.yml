@@ -1,0 +1,6 @@
+#Scrutinizer Configuration 
+#Code Rating/Code Smells
+checks:
+    php:
+        code_rating: true
+        duplication: true
